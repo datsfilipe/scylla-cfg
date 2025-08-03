@@ -8,10 +8,10 @@ permissions:
 jobs:
   build:
     name: 'QMK Userspace Build'
-    uses: datsfilipe/.githubsadfsafd/.github/workflows/qmk_userspace_build.yml@main
+    uses: qmk/.github/.github/workflows/qmk_userspace_build.yml@main
     with:
       qmk_repo: bastardkb/bastardkb-qmk
-      qmk_ref: bkb-lts-vial
+      qmk_ref: bkb-master
 
   publish:
     name: 'QMK Userspace Publish'

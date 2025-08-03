@@ -1,3 +1,3 @@
-VIA_ENABLE = yes
+VIA_ENABLE = no
 VIAL_ENABLE = yes
 TAP_DANCE_ENABLE = yes

@@ -17,7 +17,9 @@
 
 #include QMK_KEYBOARD_H
 
-tap_dance_action_t tap_dance_actions[] = {};
+tap_dance_action_t tap_dance_actions[] = {
+    [0] = ACTION_TAP_DANCE_DOUBLE(KC_T, KC_LALT),
+};
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -29,7 +31,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                              //-------------------------------------------------//-----------------------------------------------------------//
                              KC_LCTL, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_BSLS,
                              //-------------------------------------------------//-----------------------------------------------------------//
-                             KC_LCTL, KC_SPC, MO(1), MO(2), KC_ENT, KC_RGUI, KC_HOME, KC_BSPC, KC_DEL, KC_RALT),
+                             KC_LCTL, KC_SPC, MO(1), MO(2), TD(0), KC_RGUI, KC_HOME, KC_BSPC, KC_DEL, KC_RALT),
 
     [1] = LAYOUT_split_4x6_5(KC_TILD, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_DEL,
                              //---------------------------------------------------------//-----------------------------------------------------------//

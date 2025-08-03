@@ -16,10 +16,7 @@
  */
 
 #include QMK_KEYBOARD_H
-
-tap_dance_action_t tap_dance_actions[] = {
-    [0] = ACTION_TAP_DANCE_DOUBLE(KC_T, KC_LALT),
-};
+ 
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 

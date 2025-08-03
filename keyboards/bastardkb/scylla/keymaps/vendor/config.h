@@ -1,6 +1,5 @@
 #pragma once
 
 #define TAPPING_TERM 100
-#define TAPPING_TERM_PER_KEY
 #define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT

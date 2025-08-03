@@ -8,7 +8,8 @@ permissions:
 jobs:
   build:
     name: 'QMK Userspace Build'
-    uses: qmk/.github/.github/workflows/qmk_userspace_build.yml@main
+    uses: datsfilipe/.githubsadfsafd/blob/main/.github/workflows/qmk_userspace_build.yml@main
+ 
     with:
       qmk_repo: bastardkb/bastardkb-qmk
       qmk_ref: bkb-lts-vial

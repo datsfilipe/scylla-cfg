@@ -17,6 +17,8 @@
 
 #include QMK_KEYBOARD_H
 
+tap_dance_action_t tap_dance_actions[] = {};
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [0] = LAYOUT_split_4x6_5(KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_BSPC,

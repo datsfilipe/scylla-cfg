@@ -21,3 +21,8 @@ XXX, K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29, XXX, \
                K32, K33, K34,                K35, K36, K37, \
                     XXX, XXX,                XXX, XXX \
 )
+
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_FORCE_HOLD
+#define QUICK_TAP_TERM 0

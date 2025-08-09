@@ -1,3 +1,4 @@
+USERSPACE = bastardkb
 VIA_ENABLE = yes
 COMBO_ENABLE = no
 LEADER_ENABLE = no
